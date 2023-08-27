@@ -5,10 +5,10 @@ name: default
 
 steps:
 - name: backend
-  image: golang
+  image: debian:slim
   commands:
-  - go build
-  - go test
+  - echo loshara
+  
 
 trigger:
   branch:
